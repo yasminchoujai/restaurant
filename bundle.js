@@ -116,7 +116,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   loadAboutPage: () => (/* binding */ loadAboutPage)\n/* harmony export */ });\nfunction loadAboutPage() {\r\n    const content = document.getElementById('content');\r\n    content.innerHTML = '';\r\n  \r\n    const headline = document.createElement('h2');\r\n    headline.textContent = \"OUR STORY\";\r\n    headline.classList.add('ourstory');\r\n    const containerr = document.createElement('div');\r\n    containerr.classList.add('containerr');\r\n    const image = document.createElement('img');\r\n    image.src = \"src/images/about.jpg\";\r\n    image.alt = \"about Image\";\r\n    image.classList.add('aboutimg');\r\n    const abouttext = document.createElement('p');\r\n    abouttext.textContent = \"At mokito, we take pride in crafting exquisite pastries that bring a touch of sweetness to every moment. Our journey began with a simple passion for baking, transforming traditional recipes into delightful masterpieces. Each pastry is made with the finest ingredients, ensuring a perfect balance of flavors and textures. From flaky croissants and rich cakes to delicate tarts and cookies, our offerings are a testament to our commitment to quality and craftsmanship. We invite you to experience the warmth and joy of our creations, made with love and care in every bite\";\r\n    abouttext.classList.add('textcontent');\r\n    content.appendChild(headline);\r\n    containerr.appendChild(abouttext);\r\n    content.appendChild(containerr);\r\n    containerr.appendChild(image);\r\n\r\n  }\r\n  \n\n//# sourceURL=webpack://restaurant/./src/about.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   loadAboutPage: () => (/* binding */ loadAboutPage)\n/* harmony export */ });\n/* harmony import */ var _images_about_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/about.jpg */ \"./src/images/about.jpg\");\n\r\n\r\nfunction loadAboutPage() {\r\n    const content = document.getElementById('content');\r\n    content.innerHTML = '';\r\n  \r\n    const headline = document.createElement('h2');\r\n    headline.textContent = \"OUR STORY\";\r\n    headline.classList.add('ourstory');\r\n    const containerr = document.createElement('div');\r\n    containerr.classList.add('containerr');\r\n    const image = document.createElement('img');\r\n    image.src = _images_about_jpg__WEBPACK_IMPORTED_MODULE_0__;\r\n    image.alt = \"about Image\";\r\n    image.classList.add('aboutimg');\r\n    const abouttext = document.createElement('p');\r\n    abouttext.textContent = \"At mokito, we take pride in crafting exquisite pastries that bring a touch of sweetness to every moment. Our journey began with a simple passion for baking, transforming traditional recipes into delightful masterpieces. Each pastry is made with the finest ingredients, ensuring a perfect balance of flavors and textures. From flaky croissants and rich cakes to delicate tarts and cookies, our offerings are a testament to our commitment to quality and craftsmanship. We invite you to experience the warmth and joy of our creations, made with love and care in every bite\";\r\n    abouttext.classList.add('textcontent');\r\n    content.appendChild(headline);\r\n    containerr.appendChild(abouttext);\r\n    content.appendChild(containerr);\r\n    containerr.appendChild(image);\r\n\r\n  }\r\n  \n\n//# sourceURL=webpack://restaurant/./src/about.js?");
 
 /***/ }),
 
@@ -126,7 +126,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   loadHomePage: () => (/* binding */ loadHomePage)\n/* harmony export */ });\nfunction loadHomePage() {\r\n    const content = document.getElementById('content');\r\n    content.innerHTML = '';\r\n    const image = document.createElement('img');\r\n    image.src = \"src/images/coffee.jpg\";\r\n    image.alt = \"Restaurant Image\";\r\n     image.classList.add('homeimg');\r\n    const title = document.createElement('h1');\r\n    title.textContent = \"We offer the best baked goods in town. Come visit us!\";\r\n    title.classList.add('menu');\r\n    const tomenu = document.createElement('button');\r\n    tomenu.textContent=\"go to menu\";\r\n    tomenu.classList.add('tomenu'); // Assigning a class\r\n   \r\n    content.appendChild(image);\r\n    content.appendChild(title);\r\n    content.appendChild(tomenu);\r\n      \r\n  }\r\n  \n\n//# sourceURL=webpack://restaurant/./src/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   loadHomePage: () => (/* binding */ loadHomePage)\n/* harmony export */ });\n/* harmony import */ var _images_coffee_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/coffee.jpg */ \"./src/images/coffee.jpg\");\n\r\n\r\nfunction loadHomePage() {\r\n    const content = document.getElementById('content');\r\n    content.innerHTML = '';\r\n    const image = document.createElement('img');\r\n    image.src = _images_coffee_jpg__WEBPACK_IMPORTED_MODULE_0__;\r\n    image.alt = \"Restaurant Image\";\r\n     image.classList.add('homeimg');\r\n    const title = document.createElement('h1');\r\n    title.textContent = \"We offer the best baked goods in town. Come visit us!\";\r\n    title.classList.add('menu');\r\n    const tomenu = document.createElement('button');\r\n    tomenu.textContent=\"go to menu\";\r\n    tomenu.classList.add('tomenu'); // Assigning a class\r\n   \r\n    content.appendChild(image);\r\n    content.appendChild(title);\r\n    content.appendChild(tomenu);\r\n      \r\n  }\r\n  \n\n//# sourceURL=webpack://restaurant/./src/home.js?");
 
 /***/ }),
 
@@ -147,6 +147,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   loadMenuPage: () => (/* binding */ loadMenuPage)\n/* harmony export */ });\nfunction loadMenuPage() {\r\n  const content = document.getElementById('content');\r\n  content.innerHTML = '';\r\n\r\n  const headline = document.createElement('h2');\r\n  headline.textContent = \"Menu\";\r\n  headline.classList.add('menupage');\r\n  const container = document.createElement('div');\r\n  container.classList.add('container');\r\n\r\n  const drinks = document.createElement('div');\r\n  drinks.classList.add('box');\r\n  drinks.innerHTML = `\r\n      <h3>Drinks</h3>\r\n      <p>Coffee<br></br>  Tea<br></br>  Orange Juice<br></br> Lemonade<br></br>  Soda<br></br>  Smoothies<br></br>  Iced Coffee<br></br>  Hot Chocolate</p>\r\n  `;\r\n\r\n  const cake = document.createElement('div');\r\n  cake.classList.add('box');\r\n  cake.innerHTML = `\r\n      <h3>Cake</h3>\r\n      <p>Chocolate Cake<br></br>  Cheesecake<br></br>  Red Velvet Cake<br></br>  Carrot Cake<br></br>  Black Forest Cake<br></br>  Lemon Drizzle Cake<br></br>  Victoria Sponge Cake<br></br>  Tiramisu</p>\r\n  `;\r\n\r\n  const croissant = document.createElement('div');\r\n  croissant.classList.add('box');\r\n  croissant.innerHTML = `\r\n      <h3>Croissant</h3>\r\n      <p>Butter Croissant <br></br> Almond Croissant<br></br>  Chocolate Croissant<br></br>  Ham and Cheese Croissant<br></br>  Spinach and Cheese Croissan<br></br>  Raspberry Croissant<br></br>  Blueberry Croissant</p>\r\n  `;\r\n\r\n  container.appendChild(drinks);\r\n  container.appendChild(cake);\r\n  container.appendChild(croissant);\r\n\r\n  content.appendChild(headline);\r\n  content.appendChild(container);\r\n}\r\n\n\n//# sourceURL=webpack://restaurant/./src/menu.js?");
+
+/***/ }),
+
+/***/ "./src/images/about.jpg":
+/*!******************************!*\
+  !*** ./src/images/about.jpg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"a24c835e0f0a71fd5d2e.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/images/about.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/coffee.jpg":
+/*!*******************************!*\
+  !*** ./src/images/coffee.jpg ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"d507fed61668bdbe4438.jpg\";\n\n//# sourceURL=webpack://restaurant/./src/images/coffee.jpg?");
 
 /***/ })
 
@@ -201,6 +221,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -215,6 +247,29 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && (!scriptUrl || !/^http(s?):/.test(scriptUrl))) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
